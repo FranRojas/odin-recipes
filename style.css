@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.img{
+  width: 500px;
+  height: auto;
+  border-radius: 10px;
+  margin: 1em;
+}
+.landing-img{
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.container{
+  background-color: black;
+  height: 100vh;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: aliceblue;
+}
+.title{
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+  color: aliceblue;
+  padding: 1.5em 0;
+}
+.subtitle{
+  text-align: center;
+  color: aliceblue;
+  margin: 2em; 
+}
+.img-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.img-container p{
+  margin: 1em;
+  font-size: 25px;
+}
+.footer{
+  width: 100%;
+  position: fixed;
+  justify-content: center;
+  bottom: 0;
+  text-align: center;
+  margin: 1em;
+
+}
+
+.recipe-container{
+  background-color: black;
+  min-height: 100vh;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: aliceblue;
+}
+.recipe-description{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+  margin: 5px;
+  padding: 5px;
+}
+.ingr{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 1em;
+  padding: 5px;
+  font-size: 22px;
+  text-decoration: underline;
+}
+.list, .directions{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 1em 0 0em 10%;
+  font-size: 20px;
+  padding-bottom: 1em;
+}
+
+.last{
+  padding-bottom: 3em;
+}
